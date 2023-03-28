@@ -3,8 +3,6 @@
 The Activity Table Builder is a tool generate an activity table to demonstrate Process Mining to someone starting out in the field.
 It generates a simple activity table with sorting, case ID, activity, and timestamp.
 
-(Work in Progress - the entire README will be up and ready soon.)
-
 ## Preparation
 
 ### Software
