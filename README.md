@@ -85,14 +85,18 @@ Once the repository has been cloned into the workbench, navigate to the Activity
     <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e6c9e1a427a1c671ddb9127341fc5c0e6ebe0c2a/images/img6.png" alt="activity_list" style="height: 163px; width:960px"/>
 </p>
 
-#### Editing the File
+If the file does not appear as the above picture, try changing the delimiter to ";".
+
+#### **Editing the File**
 Either download the file on to your system or use the Editor in the Workbench.
 
 <p align="center">
     <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e6c9e1a427a1c671ddb9127341fc5c0e6ebe0c2a/images/img10.png" alt="editor" style="height: 319px; width:275px"/>
 </p>
 
-#### FIlling up the Activity List
+If you download the file to edit it, delete the temnplate from the folder and upload the filled in file **without renaming it**.
+
+#### **FIlling up the Activity List**
 
 **Column 1:** The first column is a list of all the possible activities that can happen during the process.
 
@@ -100,13 +104,32 @@ Either download the file on to your system or use the Editor in the Workbench.
 
 **END:** This is a flag to denote whether an activity is a terminal activity, i.e., the process can end at that activity. If an activity is a terminal activity then the value is 100, otherwise 0.
 
-**Column 5 and beyond:** These columns denote the probability of an activity in row 1 being following an activity in column 1. E.g. If Activity 2 follows Activity 1 in 80% of the cases, then the entry at the intersection of Activity 1 in Column 1 and Activity 2 in Row 1 should be 80.
+**Column 5 and beyond:** These columns denote the probability of an activity in row 1 being following an activity in column 1. E.g.
+
+If Activity 2 follows Activity 1 in 80% of the cases, then the entry at the intersection of Activity 1 in Column 1 and Activity 2 in Row 1 should be 80.
 
 *N.B.:* Ensure that the sum of the entires in a row from 'END' (inclusive) onwards adds up to 100.
 
-
 ### Running the Tool
+Once the "activity_list.csv" is filled up, open the "Activity Table Builder.ipynb" file.
 
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img7.png" alt="JP Notebook" style="height: 245px; width:146px"/>
+</p>
+
+Move your cursor to the end of the first code block.
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img8.png" alt="JP Notebook" style="height: 138px; width:678px"/>
+</p>
+
+Run it by pressing Ctrl+Enter (Windows) / Control+Return (Mac). Do this for every following code block.
+
+In the final code block, you will be required to enter the number of cases you want to generate. While there is no restriction on the number of cases you can generate, the Academic License of the EMS can only allows 100,000 rows in a table.
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img9.png" alt="JP Notebook" style="height: 500px; width:960px"/>
+</p>
 
 # Congratulations! You have generated your own activity table!
 
