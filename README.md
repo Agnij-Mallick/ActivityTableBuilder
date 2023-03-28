@@ -22,8 +22,7 @@ This tool exclusively builds activity tables. Since case tables can vary signifi
 ## Generating an Activity Table
 ### Accessing the Machine Learning Workbench
 Go to Machine Learning in Data Integration.
-![Screenshot 1][scr1]
-[scr1]: https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/f1ed2bb9c3520708dde68012d36361b0861cd62a/images/img1.png "Screenshot 1"
+<img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/f1ed2bb9c3520708dde68012d36361b0861cd62a/images/img1.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 300px; width:100px"/>
 
 ### Setting up the Workbench
 
