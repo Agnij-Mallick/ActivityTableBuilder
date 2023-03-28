@@ -131,13 +131,21 @@ In the final code block, you will be required to enter the number of cases you w
     <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img9.png" alt="JP Notebook" style="height: 139px; width:679px"/>
 </p>
 
-# Congratulations! You have generated your own activity table!
+# You have generated your own activity table!
+Your activity table should be generated. It will appear in the file explorer in the Workbench.
 
 ## Things to look out for
 ### Using the correct Delimiter for your CSV file
+The template file uses ";" as the delimiter in the CSV file. If you use an offline spreadsheet tool to edit the template, make sure to check whether the demiliter matches between the code and file.
 
+Make sure this matches the delimiter in the second code block.
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e8ac9b2a8368fb5ceb280d7b1b23c4eba22566f4/images/img11.png" alt="Delimiter" style="height: 70px; width:670px"/>
+</p>
 
 ### Editing the file to work with EMS
-
+The cell of the activity table generated at the 1^{st} row, 1^{st} column is empty. This will result in an error when uploading the the EMS using Upload Files option in a Data Pool. Rename this cell to "Sorting".
 
 ### Maintaining the Template
+The program is dependent on the template being maintained. Changing the layout of the Activity List file will result in the program not working as expected.
