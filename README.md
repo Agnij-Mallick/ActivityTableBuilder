@@ -114,13 +114,13 @@ If Activity 2 follows Activity 1 in 80% of the cases, then the entry at the inte
 Once the "activity_list.csv" is filled up, open the "Activity Table Builder.ipynb" file.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img7.png" alt="JP Notebook" style="height: 245px; width:146px"/>
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img7.png" alt="JP Notebook" style="height: 146px; width:245px"/>
 </p>
 
 Move your cursor to the end of the first code block.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img8.png" alt="JP Notebook" style="height: 138px; width:678px"/>
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img8.png" alt="JP Notebook" style="height: 500px; width:960px"/>
 </p>
 
 Run it by pressing Ctrl+Enter (Windows) / Control+Return (Mac). Do this for every following code block.
@@ -128,7 +128,7 @@ Run it by pressing Ctrl+Enter (Windows) / Control+Return (Mac). Do this for ever
 In the final code block, you will be required to enter the number of cases you want to generate. While there is no restriction on the number of cases you can generate, the Academic License of the EMS can only allows 100,000 rows in a table.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img9.png" alt="JP Notebook" style="height: 500px; width:960px"/>
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img9.png" alt="JP Notebook" style="height: 139px; width:679px"/>
 </p>
 
 # Congratulations! You have generated your own activity table!
