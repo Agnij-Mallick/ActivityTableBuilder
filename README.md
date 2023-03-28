@@ -138,8 +138,6 @@ Your activity table should be generated. It will appear in the file explorer in 
 ### Using the correct Delimiter for your CSV file
 The template file uses ";" as the delimiter in the CSV file. If you use an offline spreadsheet tool to edit the template, make sure to check whether the demiliter matches between the code and file.
 
-Make sure this matches the delimiter in the second code block.
-
 <p align="center">
     <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e8ac9b2a8368fb5ceb280d7b1b23c4eba22566f4/images/img11.png" alt="Delimiter" style="height: 70px; width:670px"/>
 </p>
