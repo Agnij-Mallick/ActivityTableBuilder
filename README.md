@@ -24,11 +24,36 @@ This tool exclusively builds activity tables. Since case tables can vary signifi
 Go to Machine Learning in Data Integration.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/f1ed2bb9c3520708dde68012d36361b0861cd62a/images/img1.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 300px; width:100px"/>
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/f1ed2bb9c3520708dde68012d36361b0861cd62a/images/img1.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 500px; width:211px"/>
 </p>
 
-### Setting up the Workbench
+Create a new Workbench.
 
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/807eb51a588cbad8d064e828ba81c061a97bbfdc/images/img2.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 148px; width:470px"/>
+</p>
+
+The Workbench does not require any permissions to be granted to it.
+
+### Setting up the Workbench
+Once the Workbench has been created, launch it and open the terminal.
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/807eb51a588cbad8d064e828ba81c061a97bbfdc/images/img3.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 338px; width:960px"/>
+</p>
+
+Install the `DateTime` package with `pip`. Type the following in the terminal and press return.
+
+```
+pip install DateTime
+```
+
+All other dependencies are installed by default in the EMS. However, if you are using an offline installation of Jupyter Notebook or they are deprecated in future versions on the ML Workbench, install the following packages:
+
+1. `pandas`
+2. `numpy`
+3. `random2`
+4. `python-dateutil`
 
 ### Cloning the repository
 
