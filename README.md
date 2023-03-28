@@ -67,6 +67,15 @@ All other dependencies are installed by default in the EMS. However, if you are 
 
 ### Cloning the repository
 
+Clone the repository into the Workbench. Use the following command in the terminal:
+
+```
+git clone https://github.com/Agnij-Mallick/ActivityTableBuilder.git
+```
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/d3bdb9f2e14fdbd3bf45af03b61f569761519dbb/images/img5.png" alt="git command" style="height: 156px; width:960px"/>
+</p>
 
 ### Set up the Activity List
 
