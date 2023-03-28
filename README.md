@@ -58,7 +58,7 @@ pip install DateTime
     <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/54afec166e18fc88063d6e8fb1a68c824b52a53d/images/img4.png" alt="Terminal screenshot" style="height: 145px; width:960px"/>
 </p>
 
-All other dependencies are installed by default in the EMS. However, if you are using an offline installation of Jupyter Notebook install the following packages:
+All other dependencies are installed by default in the Workbench. However, if you are using an offline installation of Jupyter Notebook install the following packages:
 
 1. `pandas`
 2. `numpy`
@@ -78,6 +78,31 @@ git clone https://github.com/Agnij-Mallick/ActivityTableBuilder.git
 </p>
 
 ### Set up the Activity List
+
+Once the repository has been cloned into the workbench, navigate to the ActivityTableBuilder folder. Open the file "activity_list.csv". It is a template for the input file.
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e6c9e1a427a1c671ddb9127341fc5c0e6ebe0c2a/images/img6.png" alt="activity_list" style="height: 163px; width:960px"/>
+</p>
+
+#### Editing the File
+Either download the file on to your system or use the Editor in the Workbench.
+
+<p align="center">
+    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e6c9e1a427a1c671ddb9127341fc5c0e6ebe0c2a/images/img10.png" alt="editor" style="height: 319px; width:275px"/>
+</p>
+
+#### FIlling up the Activity List
+
+**Column 1:** The first column is a list of all the possible activities that can happen during the process.
+
+**Minimum Duration & Maximum Duration:** The second and third column denote the minimum and maximum time an activity can take to be completed respectively.
+
+**END:** This is a flag to denote whether an activity is a terminal activity, i.e., the process can end at that activity. If an activity is a terminal activity then the value is 100, otherwise 0.
+
+**Column 5 and beyond:** These columns denote the probability of an activity in row 1 being following an activity in column 1. E.g. If Activity 2 follows Activity 1 in 80% of the cases, then the entry at the intersection of Activity 1 in Column 1 and Activity 2 in Row 1 should be 80.
+
+*N.B.:* Ensure that the sum of the entires in a row from 'END' (inclusive) onwards adds up to 100.
 
 
 ### Running the Tool
