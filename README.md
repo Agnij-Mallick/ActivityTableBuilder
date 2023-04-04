@@ -28,13 +28,13 @@ This tool exclusively builds activity tables. Since case tables can vary signifi
 Go to Machine Learning in Data Integration.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/f1ed2bb9c3520708dde68012d36361b0861cd62a/images/img1.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 500px; width:211px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img1.png" alt="Locate Machine Learning in the left panel in the Data Option" style="height: 500px; width:211px"/>
 </p>
 
 Create a new Workbench.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/807eb51a588cbad8d064e828ba81c061a97bbfdc/images/img2.png" alt="ML Workbench" style="height: 148px; width:470px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img2.png" alt="ML Workbench" style="height: 148px; width:470px"/>
 </p>
 
 The Workbench does not require any permissions to be granted to it.
@@ -43,7 +43,7 @@ The Workbench does not require any permissions to be granted to it.
 Once the Workbench has been created, launch it and open the terminal.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/807eb51a588cbad8d064e828ba81c061a97bbfdc/images/img3.png" alt="Terminal in ML Workbench" style="height: 338px; width:960px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img3.png" alt="Terminal in ML Workbench" style="height: 338px; width:960px"/>
 </p>
 
 Install the `DateTime` package with `pip`. Type the following in the terminal and press return.
@@ -53,7 +53,7 @@ pip install DateTime
 ```
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/54afec166e18fc88063d6e8fb1a68c824b52a53d/images/img4.png" alt="Terminal screenshot" style="height: 145px; width:960px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img4.png" alt="Terminal screenshot" style="height: 145px; width:960px"/>
 </p>
 
 All other dependencies are installed by default in the Workbench. However, if you are using an offline installation of Jupyter Notebook install the following packages:
@@ -68,11 +68,11 @@ All other dependencies are installed by default in the Workbench. However, if yo
 Clone the repository into the Workbench. Use the following command in the terminal:
 
 ```
-git clone https://github.com/Agnij-Mallick/ActivityTableBuilder.git
+git clone https://github.com/celonis-content/ActivityTableBuilder.git
 ```
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/d3bdb9f2e14fdbd3bf45af03b61f569761519dbb/images/img5.png" alt="git command" style="height: 156px; width:960px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img13.png" alt="git command" style="height: 153px; width:960px"/>
 </p>
 
 ### Set up the Activity List
@@ -80,7 +80,7 @@ git clone https://github.com/Agnij-Mallick/ActivityTableBuilder.git
 Once the repository has been cloned into the workbench, navigate to the ActivityTableBuilder folder. Open the file "activity_list.csv". It is a template for the input file.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e6c9e1a427a1c671ddb9127341fc5c0e6ebe0c2a/images/img6.png" alt="activity_list" style="height: 163px; width:960px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img6.png" alt="activity_list" style="height: 163px; width:960px"/>
 </p>
 
 If the file does not appear as the above picture, try changing the delimiter to ";".
@@ -89,7 +89,7 @@ If the file does not appear as the above picture, try changing the delimiter to 
 Either download the file on to your system or use the Editor in the Workbench.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e6c9e1a427a1c671ddb9127341fc5c0e6ebe0c2a/images/img10.png" alt="editor" style="height: 319px; width:275px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img10.png" alt="editor" style="height: 319px; width:275px"/>
 </p>
 
 If you download the file to edit it, delete the temnplate from the folder and upload the filled in file **without renaming it**.
@@ -109,24 +109,24 @@ If Activity 2 follows Activity 1 in 80% of the cases, then the entry at the inte
 *N.B.:* Ensure that the sum of the entires in a row from 'END' (inclusive) onwards adds up to 100.
 
 ### Running the Tool
-Once the "activity_list.csv" is filled up, open the "Activity Table Builder.ipynb" file.
+Once the "activity_list.csv" is filled up, open the "Run_ActivityTableBuilder.ipynb" file.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img7.png" alt="JP Notebook" style="height: 146px; width:245px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img14.png" alt="JP Notebook" style="height: 175px; width:145px"/>
 </p>
 
-Move your cursor to the end of the first code block.
+Move your cursor to the code block.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img8.png" alt="JP Notebook" style="height: 500px; width:960px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img15.png" alt="JP Notebook" style="height: 500px; width:960px"/>
 </p>
 
-Run it by pressing Ctrl+Enter (Windows) / Control+Return (Mac). Do this for every following code block.
+Run it by pressing **Control**+**Return**.
 
-In the final code block, you will be required to enter the number of cases you want to generate. While there is no restriction on the number of cases you can generate, the Academic License of the EMS can only allows 100,000 rows in a table.
+You will be required to enter the number of cases you want to generate. While there is no restriction on the number of cases you can generate, the Academic License of the EMS can only allows 100,000 rows in a table by default.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/8d967fd342964fd9977d244163c510d91dd78f0e/images/img9.png" alt="JP Notebook" style="height: 139px; width:679px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img16.png" alt="JP Notebook" style="height: 500px; width:960px"/>
 </p>
 
 # You have generated your own activity table!
@@ -137,11 +137,11 @@ Your activity table should be generated. It will appear in the file explorer in 
 The template file uses ";" as the delimiter in the CSV file. If you use an offline spreadsheet tool to edit the template, make sure to check whether the demiliter matches between the code and file.
 
 <p align="center">
-    <img src="https://github.com/Agnij-Mallick/ActivityTableBuilder/blob/e8ac9b2a8368fb5ceb280d7b1b23c4eba22566f4/images/img11.png" alt="Delimiter" style="height: 70px; width:670px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img11.pngh" alt="Delimiter" style="height: 70px; width:670px"/>
 </p>
 
 ### Editing the file to work with EMS
-The cell of the activity table generated at the 1^{st} row, 1^{st} column is empty. This will result in an error when uploading the the EMS using Upload Files option in a Data Pool. Rename this cell to "Sorting".
+The cell of the activity table generated at the 1<sup>st</sup> row, 1<sup>st</sup> column is empty. This will result in an error when uploading the the EMS using Upload Files option in a Data Pool. Rename this cell to "Sorting".
 
 ### Maintaining the Template
 The program is dependent on the template being maintained. Changing the layout of the Activity List file will result in the program not working as expected.
