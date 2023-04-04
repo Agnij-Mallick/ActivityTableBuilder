@@ -137,7 +137,7 @@ Your activity table should be generated. It will appear in the file explorer in 
 The template file uses ";" as the delimiter in the CSV file. If you use an offline spreadsheet tool to edit the template, make sure to check whether the demiliter matches between the code and file.
 
 <p align="center">
-    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img11.pngh" alt="Delimiter" style="height: 70px; width:670px"/>
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/d8d7a18ef495acfca04e31446025713e8e29f130/images/img11.png" alt="Delimiter" style="height: 70px; width:670px"/>
 </p>
 
 ### Editing the file to work with EMS
