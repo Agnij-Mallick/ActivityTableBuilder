@@ -85,6 +85,22 @@ Once the repository has been cloned into the workbench, navigate to the Activity
 
 If the file does not appear as the above picture, try changing the delimiter to ";".
 
+#### Downloading a File from ML Workbench
+
+If you have not downloaded a file from the Machine Learning Workbench previously, your first download will be an HTML file.
+
+<p align="center">
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/8f42145b349d0cb1f6a7258a44170896a0c8f0b3/images/img17.png" alt="editor" style="height: 76px; width:232px"/>
+</p>
+
+Open the file. It will redirect you to another webpage. Scroll down, check *Don't show this again* and click on *Download File*.
+
+<p align="center">
+    <img src="https://github.com/celonis-content/ActivityTableBuilder/blob/8f42145b349d0cb1f6a7258a44170896a0c8f0b3/images/img18.png" alt="editor" style="height: 290px; width:507px"/>
+</p>
+
+Try downloading the file again.
+
 #### **Editing the File**
 Either download the file on to your system or use the Editor in the Workbench.
 
