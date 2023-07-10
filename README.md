@@ -114,7 +114,7 @@ If you download the file to edit it, delete the temnplate from the folder and up
 
 **Column 1:** The first column is a list of all the possible activities that can happen during the process.
 
-**Minimum Duration & Maximum Duration:** The second and third column denote the minimum and maximum time an activity can take to be completed respectively.
+**Minimum Duration & Maximum Duration:** The second and third column denote the minimum and maximum time in hours an activity can take to be completed respectively.
 
 **END:** This is a flag to denote whether an activity is a terminal activity, i.e., the process can end at that activity. If an activity is a terminal activity then the value is 100, otherwise 0.
 
