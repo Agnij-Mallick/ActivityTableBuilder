@@ -139,6 +139,8 @@ Move your cursor to the code block.
 
 Run it by pressing **Control**+**Return**.
 
+You only need to run one code block. Depending on the type of operation you are simulating, you can either run the first code block or the second code block. The first one simulates an operation that runs 24x7 (e.g. an electricity company). The second one simulates an operation which has limited working hours, specifically, Monday-Friday from 9 AM - 5 PM (e.g. a bank). This does not account for any holidays.
+
 You will be required to enter the number of cases you want to generate. While there is no restriction on the number of cases you can generate, the Academic License of the EMS can only allows 100,000 rows in a table by default.
 
 <p align="center">
