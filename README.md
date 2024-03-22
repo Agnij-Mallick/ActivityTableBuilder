@@ -7,7 +7,7 @@ It generates a simple activity table with sorting, case ID, activity, and timest
 
 ### Software
 
-If you are already signed up for [Celonis Execution Management System](signup.celonis.com), you can use the Machine Learning Workbench to build your activity table. Alternatively, you can also use an offline installation of Jupyter Notebook. If you are using an offline installation of Jupyter Notebook, it is recommended that you also have a spreadsheet editor available to you.
+If you are already signed up for [Celonis](signup.celonis.com), you can use the Machine Learning Workbench to build your activity table. Alternatively, you can also use an offline installation of Jupyter Notebook. If you are using an offline installation of Jupyter Notebook, it is recommended that you also have a spreadsheet editor available to you.
 
 ### Building a Scenario
 
